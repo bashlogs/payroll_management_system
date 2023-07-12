@@ -107,7 +107,7 @@
 
                       $gross = $row['rate'] * $row['total_hr'];
                       $total_deduction = $deduction + $cashadvance;
-                      $net = $gross - $total_deduction;
+                      $net = $gross;
 
                       echo "
                         <tr>
